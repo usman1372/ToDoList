@@ -30,6 +30,21 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		E411D50D2ED820BE000B691C /* Views */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E411D51B2ED83BA3000B691C /* Models */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E411D5212ED86718000B691C /* ViewModels */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		E47950A22D00C9CD007B62F3 /* ToDoList */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = ToDoList;
@@ -76,6 +91,9 @@
 			isa = PBXGroup;
 			children = (
 				E47950A22D00C9CD007B62F3 /* ToDoList */,
+				E411D50D2ED820BE000B691C /* Views */,
+				E411D5212ED86718000B691C /* ViewModels */,
+				E411D51B2ED83BA3000B691C /* Models */,
 				E47950B32D00C9D1007B62F3 /* ToDoListTests */,
 				E47950BD2D00C9D2007B62F3 /* ToDoListUITests */,
 				E47950A12D00C9CD007B62F3 /* Products */,
@@ -108,6 +126,9 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
+				E411D50D2ED820BE000B691C /* Views */,
+				E411D51B2ED83BA3000B691C /* Models */,
+				E411D5212ED86718000B691C /* ViewModels */,
 				E47950A22D00C9CD007B62F3 /* ToDoList */,
 			);
 			name = ToDoList;
@@ -399,11 +420,13 @@
 				DEVELOPMENT_TEAM = 8J8N4D3WH4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TaskNest;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -428,11 +451,13 @@
 				DEVELOPMENT_TEAM = 8J8N4D3WH4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TaskNest;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
